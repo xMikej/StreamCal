@@ -1,0 +1,41 @@
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harmonogram Streamów</title>
+    <!-- Google Fonts: Oswald -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>Harmonogram Streamów</header>
+
+    <main>
+      <div id="next-stream-countdown" class="countdown-box"></div>
+
+      <!-- Stały stream w każdą środę -->
+      <div class="stream weekly-stream">
+        <div class="stream-info">
+          <span class="stream-date">Każda środa</span>
+          <span class="stream-title">Regularny stream</span>
+        </div>
+        <div class="stream-time large-time">19:00</div>
+      </div>
+
+      <!-- Tu JS wstawi dynamiczne streamy -->
+      <div id="stream-container"></div>
+
+      <p class="timezone-note">
+        Wszystkie godziny dotyczą czasu lokalnego (Polska, UTC+2 lub UTC+1 w
+        zimie). Streamy nieregularne mogą być odwołane, ze względu na wydarzenia
+        losowe.
+      </p>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="countdown.js"></script>
+  </body>
+</html>

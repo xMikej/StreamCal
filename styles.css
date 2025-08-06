@@ -1,0 +1,81 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background: #1d1d1d;
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #c798ff;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.stream {
+  background: #272727;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.stream:hover {
+  transform: scale(1.02);
+}
+.stream-info {
+  display: flex;
+  flex-direction: column;
+}
+.stream-date {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.stream-title {
+  font-size: 1.3rem;
+  margin-top: 0.3rem;
+  font-weight: 400;
+}
+.stream-time {
+  background: #c798ff;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.weekly-stream {
+  background: #c798ff; /* inny odcień niebieskiego */
+  color: #1d1d1d;
+}
+
+.large-time {
+  font-size: 2.2rem; /* większy rozmiar czcionki */
+  padding: 0.5rem 1rem; /* trochę większe wcięcia */
+}
+
+.countdown-box {
+  color: #fff;
+  padding: 1.5rem;
+  margin: 1rem auto 2rem auto;
+  max-width: 900px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+
+.timezone-note {
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+  font-family: "Oswald", sans-serif;
+  margin-top: -1rem;
+}
